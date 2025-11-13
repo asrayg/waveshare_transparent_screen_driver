@@ -1,2 +1,4 @@
 Pillow
 adafruit-blinka
+RPI.GPIO
+rpi-lgpio
