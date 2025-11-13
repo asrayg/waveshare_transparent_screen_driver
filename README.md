@@ -91,7 +91,7 @@ pip install waveshare-transparent-oled --break-system-packages
 
 ---
 
-# 📦 PyPI Link
+## 📦 PyPI Link
 
 You can view the package on PyPI here:
 
@@ -99,7 +99,7 @@ You can view the package on PyPI here:
 
 ---
 
-## If you're doing it locally
+## Installing Locally
 ### 1. Install system dependencies
 
 ```
