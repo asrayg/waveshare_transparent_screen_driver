@@ -79,6 +79,11 @@ Interfacing Options → SPI → Yes
 
 You can install the Waveshare Transparent OLED driver directly from PyPI:
 
+but first
+```bash
+sudo apt install -y swig build-essential python3-dev
+```
+
 ```bash
 pip install waveshare-transparent-oled
 ```
