@@ -75,6 +75,31 @@ Interfacing Options → SPI → Yes
 
 # 📥 Installation
 
+### **Install from PyPI**
+
+You can install the Waveshare Transparent OLED driver directly from PyPI:
+
+```bash
+pip install waveshare-transparent-oled
+```
+
+If you’re on Raspberry Pi OS (which uses PEP 668 “externally managed environments”), you may need:
+
+```bash
+pip install waveshare-transparent-oled --break-system-packages
+```
+
+---
+
+# 📦 PyPI Link
+
+You can view the package on PyPI here:
+
+🔗 **[https://pypi.org/project/waveshare-transparent-oled/](https://pypi.org/project/waveshare-transparent-oled/)**
+
+---
+
+## If you're doing it locally
 ### 1. Install system dependencies
 
 ```
