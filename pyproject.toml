@@ -1,3 +1,44 @@
 [build-system]
-requires = ["setuptools", "wheel"]
+requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
+
+[project]
+name = "waveshare-transparent-oled"
+version = "1.0.0"
+description = "Driver for Waveshare 1.51-inch Transparent OLED (128x64, blue) for Raspberry Pi"
+readme = "README.md"
+requires-python = ">=3.7"
+license = { file = "LICENSE" }
+authors = [
+  { name = "Asray Gopa", email = "asraygopa@gmail.com" }
+]
+
+keywords = [
+  "waveshare",
+  "oled",
+  "raspberry-pi",
+  "transparent display",
+  "ssd1309",
+  "spi",
+  "embedded",
+]
+
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Operating System :: POSIX :: Linux",
+    "Topic :: System :: Hardware",
+    "Topic :: Software Development :: Embedded Systems",
+]
+
+dependencies = [
+    "Pillow>=8.0.0",
+    "adafruit-blinka>=8.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/asrayg/waveshare_transparent_screen_driver/"
+Issues   = "https://github.com/asrayg/waveshare_transparent_screen_driver/issues"
