@@ -1,2 +1,0 @@
-Pillow>=8.0.0
-adafruit-blinka>=8.0.0
