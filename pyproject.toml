@@ -35,6 +35,9 @@ classifiers = [
 ]
 
 dependencies = [
+    "RPi.GPIO",
+    "rpi-lgpio",
+    "Adafruit-Blinka",
     "Pillow>=8.0.0",
     "adafruit-blinka>=8.0.0",
 ]
